@@ -3,12 +3,6 @@
                                                                    LE LANGAGE TURTLE : 
                                                                   --------------------
 
-
-
-GROUPE :      WALID LAMKOUTAR / TOUFIK KHARIJ / ZAID LAMRANI / OUSSAMA TARMOUNE  ---> GL2 ENSIAS
---------        
-
-
 N.B :
 ----
  Ce projet s'inscrit dans le cadre du développement d'un compilateur turtle qui va selon une grammaire bien définie dans le dossier courant faire en sorte qu'une tortue se mouvoit dans son espace
