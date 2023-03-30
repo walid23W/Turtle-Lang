@@ -1,0 +1,5 @@
+penColor(140,143,150);
+repeat(4){
+moveForward(100);
+turnLeft(90);
+}

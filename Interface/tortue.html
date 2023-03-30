@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Turtle_game</title>
+    <link rel="stylesheet" href="Turtle.css">
+    <!-- > Google_fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <!-- > //Google_fonts// -->
+</head>
+<body>
+ <div class="turtle_class">
+     <b>
+         Time for playing Turtle Game
+     </b>
+     <hr>
+ </div>
+<div class="display_class">
+    <div class="code">
+       <div>
+           <b>Enter your code :</b>
+       </div>
+        <script src="charger_code.js"></script>
+        <textarea id="codearea">
+
+        </textarea>
+        <div class="button">
+        <button onclick="send_code()">
+            Run
+        </button>
+        </div>
+
+    </div>
+    <div class="canvas">
+        <div>
+        <b>
+            Screen
+        </b>
+        </div>
+        <canvas id="canva" width="500" height="500" style="border: solid grey" ></canvas>
+        <script src="./translate.js" type="module" ></script>
+    </div>
+</div>
+</body>
+</html>

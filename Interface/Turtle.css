@@ -1,0 +1,53 @@
+body {
+    font-family: 'Zen Dots', cursive;
+}
+
+.turtle_class {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.display_class {
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.canvas {
+    height: 600px;
+    width:  600px;
+    text-align: center;
+}
+
+.canvas canvas {
+    margin-top: 5%;
+}
+
+.canvas b {
+    border: black;
+}
+
+.code {
+    height: 600px;
+    width:  600px;
+    text-align: center;
+    align-items: center;
+}
+
+.code textarea {
+    resize: none;
+    margin-top: 5%;
+    height: 80%;
+    width: 80%;
+    overflow: auto;
+    font-family: "JetBrains Mono", system-ui;
+    font-weight: bolder;
+    font-size: medium;
+    color: darkgreen;
+}
+
+.button {
+    margin-top: 15px;
+}
+

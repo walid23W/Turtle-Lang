@@ -1,0 +1,8 @@
+penColor(10,114,11);
+penWidth(5);
+turnLeft(90);
+repeat(4){
+moveForward(100);
+turnRight(144);
+}
+moveForward(100);

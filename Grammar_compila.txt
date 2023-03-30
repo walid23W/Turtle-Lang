@@ -1,0 +1,7 @@
+<program> ::= <command> <program_list>
+<program_list> ::= <command> <program_list> | ε
+<command> ::= <pen_command> | <movement_command> | <rotation_command> | <loop_command> 
+<pen_command> ::= "pen_color(" <number>, <number>, <number> ")" | "pen_width(" <number> ")" | "pen_style(" <style> ")"
+<movement_command> ::= "move_forward(" <number> ")" | "move_backward(" <number> ")" | "move_to(" <number> "," <number> ")"
+<rotation_command> ::= "turn_left(" <number> ")" | "turn_right(" <number> ")"
+<loop_command> ::= "repeat(" <number> ") {" <program> "}" 

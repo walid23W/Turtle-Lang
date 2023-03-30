@@ -1,0 +1,25 @@
+penColor(140,143,150);
+moveTo(150,150);
+repeat(60){
+   moveForward(3);
+   turnLeft(6);
+}
+moveTo(296,150);
+repeat(60){
+   moveForward(3);
+   turnLeft(6);
+}
+moveTo(165,250);
+turnLeft(90);
+moveForward(172);
+turnRight(90);
+repeat(91){
+   moveForward(3);
+   turnRight(2);
+}
+moveTo(100,200);
+repeat(180){
+   moveForward(7);
+   turnLeft(2);
+}
+moveTo(0,0);
